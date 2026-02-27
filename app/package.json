@@ -17,6 +17,7 @@
     "submit:android": "eas submit --platform android"
   },
   "dependencies": {
+    "tsx": "^4.21.0",
     "@react-native-async-storage/async-storage": "^2.2.0",
     "@react-native-community/slider": "5.0.1",
     "@react-navigation/bottom-tabs": "^7.2.0",
