@@ -1,0 +1,31 @@
+{
+  "name": "quizifications-server",
+  "version": "1.0.0",
+  "description": "Quizifications backend API server",
+  "scripts": {
+    "dev": "tsx server/index.ts",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "@octokit/rest": "^22.0.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "drizzle-kit": "^0.31.8",
+    "drizzle-orm": "^0.45.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "node-app-store-connect-api": "^5.0.6",
+    "pg": "^8.18.0",
+    "puppeteer-core": "^24.37.1",
+    "tsx": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/pg": "^8.16.0"
+  }
+}

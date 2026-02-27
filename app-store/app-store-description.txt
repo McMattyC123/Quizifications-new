@@ -1,0 +1,96 @@
+APP NAME
+Quizifications
+
+SUBTITLE (iOS only, 30 chars max)
+Study Smarter with Push Quizzes
+
+SHORT DESCRIPTION (Google Play, 80 chars max)
+Get quizzed from your notes via push notifications. Study smarter with AI.
+
+================================================================================
+FULL DESCRIPTION
+================================================================================
+
+Quizifications helps you actually remember what you study by sending push notification quizzes from your own notes throughout the day.
+
+STOP FORGETTING WHAT YOU LEARN
+Research shows we forget 70% of new information within 24 hours. Quizifications uses spaced repetition and active recall - proven techniques that boost retention by up to 85%.
+
+HOW IT WORKS
+• Upload your notes or choose from pre-built categories
+• Our AI generates personalized quiz questions
+• Get quizzed via push notifications at your preferred times
+• Track your progress and watch your knowledge grow
+
+STUDY GROUPS
+Learn together with classmates:
+• Create or join groups with up to 20 members
+• Share notes with your group
+• Compete on weekly leaderboards
+• Stay motivated with friends
+
+FEATURES
+✓ AI-Generated Questions - No more making flashcards by hand
+✓ Push Notification Quizzes - Study in 10-second bursts
+✓ Spaced Repetition - Review at optimal intervals
+✓ Progress Tracking - See your improvement over time
+✓ Pre-Built Categories - SAT prep, science, history, languages & more
+✓ Study Windows - Set when you want to be quizzed
+✓ Offline Mode - Quiz yourself anywhere
+
+PRICING
+• 3-day free trial with full access
+• $4.99/month or $39.99/year (save 33%)
+
+Questions? Contact us at matt@quizifications.com
+
+================================================================================
+KEYWORDS (iOS, 100 chars max, comma separated)
+================================================================================
+
+study,quiz,flashcards,notes,learning,education,spaced repetition,AI,study groups,SAT prep
+
+================================================================================
+PROMOTIONAL TEXT (iOS, 170 chars max)
+================================================================================
+
+Study smarter with AI-powered quizzes from your own notes. Join study groups, compete on leaderboards, and finally remember what you learn. Start your free trial today!
+
+================================================================================
+WHAT'S NEW
+================================================================================
+
+• New lime green design refresh
+• Improved study group leaderboards
+• Bug fixes and performance improvements
+
+================================================================================
+SUPPORT & LINKS
+================================================================================
+
+Privacy Policy: https://quizifications.com/privacy.html
+Terms of Service: https://quizifications.com/terms.html
+Support: https://quizifications.com/contact.html
+Website: https://quizifications.com
+Email: matt@quizifications.com
+
+================================================================================
+CATEGORY & RATING
+================================================================================
+
+Primary Category: Education
+Secondary Category: Productivity
+Age Rating: 4+ (iOS) / Everyone (Android)
+Content Rating: No objectionable content
+
+================================================================================
+IN-APP PURCHASES
+================================================================================
+
+1. Premium Monthly - $4.99/month
+   Auto-renewable subscription. Unlimited notes, AI questions, study groups.
+
+2. Premium Yearly - $39.99/year  
+   Auto-renewable subscription. Save 33% with annual billing.
+
+Free Trial: 3 days with full access to all features.

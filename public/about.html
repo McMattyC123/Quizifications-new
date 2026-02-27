@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Quizifications - Our Mission to Help Students Learn</title>
+    <meta name="description" content="Learn about Quizifications, the AI-powered study app that helps students remember more with push notification quizzes and spaced repetition.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://quizifications.com/about.html">
+    <meta property="og:title" content="About Quizifications">
+    <meta property="og:description" content="Our mission is to help students actually remember what they study through AI-powered quizzes.">
+    <meta property="og:url" content="https://quizifications.com/about.html">
+    <meta name="theme-color" content="#c8ff00">
+    <link rel="icon" type="image/png" href="assets/icon.png">
+    <link rel="apple-touch-icon" href="assets/icon.png">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"></noscript>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg: #0a0a0b;
+            --bg-elevated: #141416;
+            --card: #1a1a1e;
+            --border: #2a2a2e;
+            --text: #ffffff;
+            --text-secondary: #9ca3af;
+            --accent: #c8ff00;
+            --accent-glow: rgba(200, 255, 0, 0.15);
+        }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+        }
+        .container { max-width: 800px; margin: 0 auto; padding: 0 24px; }
+        header {
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border);
+            background: var(--bg);
+        }
+        .header-content { display: flex; justify-content: space-between; align-items: center; }
+        .logo {
+            display: flex; align-items: center; gap: 12px;
+            font-size: 22px; font-weight: 800; text-decoration: none; color: var(--text);
+        }
+        .logo img { width: 40px; height: 40px; border-radius: 10px; }
+        .back-link { color: var(--accent); text-decoration: none; font-weight: 500; }
+
+        .hero {
+            padding: 80px 0;
+            text-align: center;
+            position: relative;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 600px;
+            height: 400px;
+            background: radial-gradient(ellipse, var(--accent-glow) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 900;
+            margin-bottom: 24px;
+            position: relative;
+        }
+        .hero h1 span { color: var(--accent); }
+        .hero p {
+            font-size: 20px;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .section {
+            padding: 64px 0;
+        }
+        .section h2 {
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 24px;
+        }
+        .section p {
+            color: var(--text-secondary);
+            font-size: 17px;
+            margin-bottom: 20px;
+        }
+
+        .mission-card {
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            padding: 48px;
+            margin: 48px 0;
+            text-align: center;
+        }
+        .mission-card h3 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: var(--accent);
+        }
+        .mission-card p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .values {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 24px;
+            margin-top: 32px;
+        }
+        .value-card {
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 32px;
+        }
+        .value-icon {
+            font-size: 36px;
+            margin-bottom: 16px;
+        }
+        .value-card h4 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .value-card p {
+            font-size: 15px;
+            color: var(--text-secondary);
+            margin: 0;
+        }
+
+        .cta-section {
+            text-align: center;
+            padding: 80px 0;
+            border-top: 1px solid var(--border);
+        }
+        .cta-section h2 {
+            font-size: 36px;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+        .cta-section p {
+            color: var(--text-secondary);
+            margin-bottom: 32px;
+        }
+        .cta-button {
+            background: var(--accent);
+            color: var(--bg);
+            padding: 16px 32px;
+            border-radius: 12px;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.2s;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 32px var(--accent-glow);
+        }
+
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        footer a { color: var(--accent); text-decoration: none; margin: 0 12px; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <a href="/" class="logo">
+                <img src="assets/icon.png" alt="Quizifications">
+                Quizifications
+            </a>
+            <a href="/" class="back-link">← Back to Home</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Making Learning <span>Stick</span></h1>
+            <p>We're on a mission to help students remember more of what they study through the power of spaced repetition and push notifications.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>The Problem</h2>
+            <p>Students spend hours studying, but research shows we forget 70% of new information within 24 hours without proper review. Traditional study methods like re-reading notes are passive and ineffective.</p>
+            <p>The solution? Active recall and spaced repetition - being quizzed on material at strategic intervals. But who has time to set up a complex flashcard system?</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="mission-card">
+            <h3>Our Mission</h3>
+            <p>To make effective studying effortless. Upload your notes once, and we'll quiz you throughout the day with AI-generated questions - turning dead time into study time.</p>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="container">
+            <h2>Our Values</h2>
+            <div class="values">
+                <div class="value-card">
+                    <div class="value-icon">⚡</div>
+                    <h4>Simplicity</h4>
+                    <p>Learning should be frictionless. No complex setup, no manual flashcard creation.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🧠</div>
+                    <h4>Science-Backed</h4>
+                    <p>Every feature is grounded in cognitive science research on memory and learning.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">👥</div>
+                    <h4>Community</h4>
+                    <p>Studying is better with friends. Learn together, compete together.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🎯</div>
+                    <h4>Results</h4>
+                    <p>We measure success by how much you actually remember, not how long you study.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Study Smarter?</h2>
+            <p>Start your free 3-day trial today.</p>
+            <a href="/" class="cta-button">Get Started →</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Quizifications. All rights reserved.</p>
+            <p style="margin-top: 16px;">
+                <a href="privacy.html">Privacy</a>
+                <a href="terms.html">Terms</a>
+                <a href="contact.html">Contact</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

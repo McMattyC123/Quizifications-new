@@ -1,0 +1,39 @@
+{
+  "configVersion": 0,
+  "apple": {
+    "version": "1.0.0",
+    "copyright": "2025 Quizifications",
+    "info": {
+      "en-US": {
+        "title": "Quizifications",
+        "subtitle": "Notification Quizzes From Notes",
+        "description": "Add your notes once. Close the app. Never open it again.\n\nQuizifications is a notification-only quiz app. You set it up once, and it does the rest — sending you push notification quizzes every 5-10 minutes that you answer without ever opening the app.\n\nHOW IT WORKS\n\n1. Add Your Notes\nType, paste, or scan your handwritten notes into the app. This is the only time you need to use it.\n\n2. Close the App\nAI automatically generates comprehensive, knowledge-based multiple-choice questions about your topic. Push notification quizzes start immediately.\n\n3. Answer From Notifications\nWhen a quiz arrives, tap the notification to expand it and select A, B, C, or D. Done in seconds. Keep scrolling, keep living.\n\nKEY FEATURES\n\n• Push Notification Quizzes — Every 5-10 minutes, a quiz arrives as a notification. Tap to expand, pick your answer, done. No need to open the app.\n\n• AI-Powered Questions — AI generates comprehensive questions about your topic, not just rephrased notes. It finds the best questions to build deep understanding.\n\n• Scan Handwritten Notes — Use your camera to photograph handwritten or printed notes during setup. AI extracts the text automatically.\n\n• 3-Strike Smart Snooze — Ignore 3 notifications in a row and quizzes pause for an hour, then resume automatically. It respects your time.\n\n• Spaced Repetition — Questions you miss come back more often. Questions you nail fade away. Your weakest areas get the most attention.\n\n• Auto-Pilot Learning — Set it and forget it. After setup, quizzes come to you. Learn passively while scrolling, hanging out, or doing nothing.\n\nPRICING\n\n• 3-day free trial with full access\n• $1.99/month after trial\n• Cancel anytime\n\nPERFECT FOR\n\n• Passive, mindless knowledge retention while doing other things\n• Students who want to study without feeling like they're studying\n• Anyone with heavy memorization loads — medical, law, certification prep\n• Language learners building vocabulary on autopilot\n• Anyone who wants to remember what they read without the effort\n\nThe app is a setup tool. After adding your notes, you never need to open it again. Learning happens in the background, one notification at a time.\n\nDownload Quizifications and put your knowledge on autopilot.",
+        "keywords": [
+          "notification quiz",
+          "push notification study",
+          "passive learning",
+          "AI quiz",
+          "autopilot study",
+          "lock screen quiz",
+          "spaced repetition",
+          "scan notes",
+          "knowledge retention",
+          "study app"
+        ],
+        "releaseNotes": "Quizifications is now a notification-only quiz app. Add your notes once, close the app, and get quizzed via push notifications every 5-10 minutes. Answer A/B/C/D right from the notification. Features 3-strike smart snooze, AI-powered questions, spaced repetition, and handwritten note scanning.",
+        "marketingUrl": "https://quizifications.com",
+        "supportUrl": "https://quizifications.com/contact.html",
+        "privacyPolicyUrl": "https://quizifications.com/privacy.html",
+        "promoText": "Add your notes once, close the app forever. Push notification quizzes every 5-10 min — answer A/B/C/D from your lock screen. Passive learning on autopilot."
+      }
+    },
+    "categories": ["EDUCATION", "PRODUCTIVITY"],
+    "review": {
+      "firstName": "Matt",
+      "lastName": "Cliett",
+      "email": "matt@quizifications.com",
+      "phone": "+18654057822",
+      "notes": "To test the app:\n1. Open the app and tap 'Sign Up' to create an account with any email and password\n2. Add a note by typing or pasting text about any topic (e.g. 'The mitochondria is the powerhouse of the cell. Photosynthesis converts light energy into chemical energy.')\n3. Questions are generated automatically by AI after saving the note\n4. The server sends push notification quizzes every 5-10 minutes\n5. Tap the notification to expand it, then select A, B, C, or D to answer\n6. The app is primarily a setup tool — after adding notes, the user doesn't need to open it again. All learning happens through push notifications.\n7. Note: Push notifications require a physical device and will not work in the iOS Simulator.\n\nNo special test credentials are needed — simply create a new account during review."
+    }
+  }
+}

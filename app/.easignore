@@ -1,0 +1,7 @@
+# Only ignore things that shouldn't be in the build
+.git
+.expo
+dist
+web-build
+*.log
+.DS_Store
